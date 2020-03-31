@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15719" started-at="2020-03-31T17:21:58 CEST" finished-at="2020-03-31T17:22:14 CEST">
+  <suite name="Suite" duration-ms="77087" started-at="2020-03-31T23:40:08 CEST" finished-at="2020-03-31T23:41:25 CEST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15719" started-at="2020-03-31T17:21:58 CEST" finished-at="2020-03-31T17:22:14 CEST">
-      <class name="dev.payference.LoginPageTest">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:dev.payference.LoginPageTest@1ce92674]" name="initialize" is-config="true" duration-ms="14125" started-at="2020-03-31T17:21:59 CEST" finished-at="2020-03-31T17:22:13 CEST">
+    <test name="LoginAndHomePage" duration-ms="77087" started-at="2020-03-31T23:40:08 CEST" finished-at="2020-03-31T23:41:25 CEST">
+      <class name="dev.payference.HomePageTest">
+        <test-method status="PASS" signature="demo()[pri:0, instance:dev.payference.HomePageTest@6fd02e5]" name="demo" duration-ms="12072" started-at="2020-03-31T23:40:23 CEST" finished-at="2020-03-31T23:40:35 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="landingPageNav()[pri:0, instance:dev.payference.LoginPageTest@1ce92674]" name="landingPageNav" duration-ms="391" started-at="2020-03-31T17:22:13 CEST" finished-at="2020-03-31T17:22:13 CEST">
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="homepageEvents()[pri:0, instance:dev.payference.HomePageTest@6fd02e5]" name="homepageEvents" duration-ms="48871" started-at="2020-03-31T23:40:35 CEST" finished-at="2020-03-31T23:41:24 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- landingPageNav -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:dev.payference.LoginPageTest@1ce92674]" name="terminate" is-config="true" duration-ms="1142" started-at="2020-03-31T17:22:13 CEST" finished-at="2020-03-31T17:22:14 CEST">
+        </test-method> <!-- homepageEvents -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:dev.payference.HomePageTest@6fd02e5]" name="terminate" is-config="true" duration-ms="811" started-at="2020-03-31T23:41:24 CEST" finished-at="2020-03-31T23:41:25 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
+      </class> <!-- dev.payference.HomePageTest -->
+      <class name="dev.payference.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:dev.payference.LoginPageTest@5700d6b1]" name="initialize" is-config="true" duration-ms="14881" started-at="2020-03-31T23:40:08 CEST" finished-at="2020-03-31T23:40:23 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="landingPageNav()[pri:0, instance:dev.payference.LoginPageTest@5700d6b1]" name="landingPageNav" duration-ms="393" started-at="2020-03-31T23:40:23 CEST" finished-at="2020-03-31T23:40:23 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageNav -->
       </class> <!-- dev.payference.LoginPageTest -->
-    </test> <!-- Test -->
+    </test> <!-- LoginAndHomePage -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -46,7 +46,7 @@ public class Base {
 		}
 		
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(80, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -60,7 +60,7 @@ public class Base {
 public void getScreenshots(String result) throws IOException
 {
 	File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	FileUtils.copyFile(src, new File("C:\\Users\\PC\\Pictures\\"+result+"pic.png"));
+	FileUtils.copyFile(src, new File(".\\screenshots\\"+result+"pic.png"));
 	
 }
 	

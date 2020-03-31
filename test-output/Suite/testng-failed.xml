@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="HomePage(failed)">
+    <classes>
+      <class name="dev.payference.HomePageTest">
+        <methods>
+          <include name="homepageEvents"/>
+          <include name="initialize"/>
+          <include name="terminate"/>
+        </methods>
+      </class> <!-- dev.payference.HomePageTest -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

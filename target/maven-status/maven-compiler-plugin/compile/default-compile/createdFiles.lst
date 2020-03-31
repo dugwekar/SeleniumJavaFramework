@@ -1,2 +1,3 @@
+pageObjects\HomePageObjects.class
 resources\Base.class
 pageObjects\LoginPageObject.class
